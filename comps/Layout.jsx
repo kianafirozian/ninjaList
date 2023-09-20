@@ -1,8 +1,7 @@
-import { Props } from "next/script";
 import Navbar from "./Navbar";
 import Footer from "./footer";
 
-const Layout = ({ children }: Props) => {
+const Layout = ({ children }) => {
   return (
     <div className="content">
       <Navbar />
